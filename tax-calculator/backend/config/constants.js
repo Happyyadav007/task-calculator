@@ -1,0 +1,12 @@
+const TAX_SLABS = Object.freeze({
+  EXEMPT_LIMIT: 250_000,
+  SLAB_B_MAX: 500_000,
+  SLAB_C_MAX: 1_000_000,
+  RATE_B: 0.1,
+  RATE_C: 0.2,
+  RATE_D: 0.25,
+  SURCHARGE_THRESHOLD: 50_000,
+  SURCHARGE_RATE: 0.05,
+});
+
+module.exports = { TAX_SLABS };
